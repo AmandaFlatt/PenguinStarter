@@ -1,0 +1,61 @@
+<html>
+    <head>  
+        <title> Penguin Starter </title>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <style>
+            tr{
+                background-color: beige;
+               
+            }
+            td{
+                text-align: center;
+            }
+             td,th,table {
+                
+             border: 5px solid black
+                  
+            }
+        
+            table{
+                table-layout: fixed;
+                
+               
+                    
+            }
+            .fail{
+                background-color: red;
+            }
+            #pic{
+                width: 100px;
+            }
+            #quiz,#HW,#test,#Final,#FinalGrade{
+                width: 75px
+            }
+        
+        
+        </style>
+        
+    </head>
+    
+    <body>
+    <p id="failing">Filter Failing</p>
+    <p id="passing">Filter Passing</p>
+    <p id="clear">Clear</p>   
+     <table id="studentTable">
+            <thead>
+                <th id="pic"> Picture</th>
+                <th id="quiz"> Mean Quiz </th>
+                <th id="HW"> Mean Homework </th>
+                <th id="test"> Mean Test</th>
+                <th id="Final"> Final </th>
+                <th id="FinalGrade"> Final Grade </th>
+               
+                
+            </thead>
+            <tbody></tbody>
+    </table>
+    <script src="tabel_file.js"></script>
+    
+    </body>
+</html>
